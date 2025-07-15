@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rank</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+
+  <style>
+    .times {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .time {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="img/logo.png" alt="Craques FC">
+      <h1>Craques CFC</h1>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <a class="navbar-brand" href="#">Cartola</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="Campeonatos.html">Campeonatos</a></li>
+          <li class="nav-item"><a class="nav-link" href="Times.html">Títulos</a></li>
+          <li class="nav-item"><a class="nav-link" href="saibamais.html">Saiba Mais</a></li>
+          <li class="nav-item"><a class="nav-link" href="rank.html">Rank</a></li>
+          <li class="nav-item"><a class="nav-link" href="links.html">Links</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://chat.whatsapp.com/I3FEuJd0T7r40zF8rxGVku">Whatsapp Grupo</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="times">
+      <h2>Campeonato Craques FC</h2>
+
+      <div class="table-responsive" style="width: 95%;">
+        <table class="table table-striped table-bordered" id="tabela-campeonato">
+          <thead class="thead-dark">
+            <tr>
+              <th>#</th>
+              <th>Logo</th>
+              <th>Posição</th>
+              <th>Nome do Time</th>
+              <th>Técnico</th>
+              <th>Pontos</th>
+              <th>Serie A.1</th>
+              <th>Libertadores.1</th>
+              <th>Serie B.1</th>
+              <th>Mundial.1</th>
+              <th>Copa do Brasil.1</th>
+              <th>Serie C.1</th>
+              <th>Sul-Americana.1</th>
+              <th>Recopa.1</th>
+              <th>Serie A.2</th>
+              <th>Libertadores.2</th>
+              <th>Serie B.2</th>
+              <th>Mundial.2</th>
+              <th>Copa do Brasil.2</th>
+              <th>Serie C.2</th>
+              <th>Sul-Americana.2</th>
+              <th>Recopa.2</th>
+              <th>Serie A.3</th>
+              <th>Libertadores.3</th>
+              <th>Serie B.3</th>
+              <th>Mundial.3</th>
+              <th>Copa do Brasil.3</th>
+              <th>Serie C.3</th>
+              <th>Sul-Americana.3</th>
+              <th>Recopa.3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td><img src="img/times/time1.png" width="40"></td>
+              <td>1</td>
+              <td>Mundão FC </td>
+              <td><input type="text" placeholder="Técnico" value="Nome do Técnico" disabled></td>
+              <td class="pontos">0</td>
+              <td><input type="number" class="serie-a1" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b1" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial1" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c1" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana1" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a2" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b2" value="" min="0" disabled></td>
+              <td><input type="number" class="mundial2" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c2" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana2" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a3" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b3" value="" min="0" disabled></td>
+              <td><input type="number" class="mundial3" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c3" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana3" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa3" value="0" min="0" disabled></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td><img src="img/times/time1.png" width="40"></td>
+              <td>2</td>
+              <td>E.C Vikings</td>
+              <td><input type="text" placeholder="Técnico" value="Rafael Iago" disabled></td>
+              <td class="pontos">0</td>
+              <td><input type="number" class="serie-a1" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b1" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial1" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c1" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana1" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a2" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b2" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial2" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c2" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana2" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a3" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b3" value="" min="0" disabled></td>
+              <td><input type="number" class="mundial3" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c3" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana3" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa3" value="0" min="0" disabled></td>
+            </tr>
+<tr>
+              <td>3</td>
+              <td><img src="img/times/time1.png" width="40"></td>
+              <td>3</td>
+              <td>Comanchester</td>
+              <td><input type="text" placeholder="Técnico" value="Rafael Iago" disabled></td>
+              <td class="pontos">0</td>
+              <td><input type="number" class="serie-a1" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b1" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial1" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c1" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana1" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a2" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b2" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial2" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c2" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana2" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a3" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b3" value="" min="0" disabled></td>
+              <td><input type="number" class="mundial3" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c3" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana3" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa3" value="0" min="0" disabled></td>
+            </tr>
+
+            <tr>
+              <td>4</td>
+              <td><img src="img/times/time1.png" width="40"></td>
+              <td>4</td>
+              <td>BECS FC</td>
+              <td><input type="text" placeholder="Técnico" value="Rafael Iago" disabled></td>
+              <td class="pontos">0</td>
+              <td><input type="number" class="serie-a1" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b1" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial1" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c1" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana1" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a2" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b2" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial2" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c2" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana2" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a3" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b3" value="" min="0" disabled></td>
+              <td><input type="number" class="mundial3" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c3" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana3" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa3" value="0" min="0" disabled></td>
+            </tr>
+            <td>5</td>
+              <td><img src="img/times/time1.png" width="40"></td>
+              <td>5</td>
+              <td>João Pinheiro At...</td>
+              <td><input type="text" placeholder="Técnico" value="Rafael Iago" disabled></td>
+              <td class="pontos">0</td>
+              <td><input type="number" class="serie-a1" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b1" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial1" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c1" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana1" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a2" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b2" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial2" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c2" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana2" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a3" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b3" value="" min="0" disabled></td>
+              <td><input type="number" class="mundial3" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c3" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana3" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa3" value="0" min="0" disabled></td>
+            </tr>
+            <td>6</td>
+              <td><img src="img/times/time1.png" width="40"></td>
+              <td>6</td>
+              <td>NeewSoccer FC</td>
+              <td><input type="text" placeholder="Técnico" value="Rafael Iago" disabled></td>
+              <td class="pontos">0</td>
+              <td><input type="number" class="serie-a1" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b1" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial1" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c1" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana1" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a2" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b2" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial2" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c2" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana2" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a3" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b3" value="" min="0" disabled></td>
+              <td><input type="number" class="mundial3" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c3" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana3" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa3" value="0" min="0" disabled></td>
+            </tr>
+            <td>7</td>
+              <td><img src="img/times/time1.png" width="40"></td>
+              <td>7</td>
+              <td>Celeste Cabuloso</td>
+              <td><input type="text" placeholder="Técnico" value="Leo M" disabled></td>
+              <td class="pontos">0</td>
+              <td><input type="number" class="serie-a1" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b1" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial1" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c1" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana1" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a2" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b2" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial2" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c2" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana2" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a3" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b3" value="" min="0" disabled></td>
+              <td><input type="number" class="mundial3" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c3" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana3" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa3" value="0" min="0" disabled></td>
+            </tr>
+            <td>8</td>
+              <td><img src="img/times/time1.png" width="40"></td>
+              <td>8</td>
+              <td>FAIRY TAIL SAF</td>
+              <td><input type="text" placeholder="Técnico" value="" disabled></td>
+              <td class="pontos">0</td>
+              <td><input type="number" class="serie-a1" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b1" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial1" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c1" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana1" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a2" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b2" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial2" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c2" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana2" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a3" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b3" value="" min="0" disabled></td>
+              <td><input type="number" class="mundial3" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c3" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana3" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa3" value="0" min="0" disabled></td>
+            </tr>
+            <td>9</td>
+              <td><img src="img/times/time1.png" width="40"></td>
+              <td>9</td>
+              <td>TINEKINHA</td>
+              <td><input type="text" placeholder="Técnico" value="Rafael Iago" disabled></td>
+              <td class="pontos">0</td>
+              <td><input type="number" class="serie-a1" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b1" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial1" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c1" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana1" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a2" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b2" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial2" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c2" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana2" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a3" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b3" value="" min="0" disabled></td>
+              <td><input type="number" class="mundial3" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c3" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana3" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa3" value="0" min="0" disabled></td>
+            </tr>
+            <td>10</td>
+              <td><img src="img/times/time1.png" width="40"></td>
+              <td>10</td>
+              <td>DESPACHO</td>
+              <td><input type="text" placeholder="Técnico" value="Moises" disabled></td>
+              <td class="pontos">0</td>
+              <td><input type="number" class="serie-a1" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b1" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial1" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c1" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana1" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a2" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b2" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial2" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c2" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana2" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a3" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b3" value="" min="0" disabled></td>
+              <td><input type="number" class="mundial3" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c3" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana3" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa3" value="0" min="0" disabled></td>
+            </tr>
+            <td>11</td>
+              <td><img src="img/times/time1.png" width="40"></td>
+              <td>11</td>
+              <td>S.C.C.P. CORINTHIANS CITY</td>
+              <td><input type="text" placeholder="Técnico" value="" disabled></td>
+              <td class="pontos">0</td>
+              <td><input type="number" class="serie-a1" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b1" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial1" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c1" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana1" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a2" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b2" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial2" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c2" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana2" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a3" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b3" value="" min="0" disabled></td>
+              <td><input type="number" class="mundial3" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c3" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana3" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa3" value="0" min="0" disabled></td>
+            </tr>
+            <td>12</td>
+              <td><img src="img/times/time1.png" width="40"></td>
+              <td>12</td>
+              <td>TREM CARRETA FURACAO</td>
+              <td><input type="text" placeholder="Técnico" value="Rafael S." disabled></td>
+              <td class="pontos">0</td>
+              <td><input type="number" class="serie-a1" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b1" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial1" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c1" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana1" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a2" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b2" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial2" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c2" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana2" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a3" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b3" value="" min="0" disabled></td>
+              <td><input type="number" class="mundial3" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c3" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana3" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa3" value="0" min="0" disabled></td>
+            </tr>
+            <td>13</td>
+              <td><img src="img/times/time1.png" width="40"></td>
+              <td>13</td>
+              <td>Nando Internacional</td>
+              <td><input type="text" placeholder="Técnico" value="Ascendino" disabled></td>
+              <td class="pontos">0</td>
+              <td><input type="number" class="serie-a1" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b1" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial1" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c1" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana1" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a2" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b2" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial2" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c2" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana2" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a3" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b3" value="" min="0" disabled></td>
+              <td><input type="number" class="mundial3" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c3" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana3" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa3" value="0" min="0" disabled></td>
+            </tr>
+            <td>14</td>
+              <td><img src="img/times/time1.png" width="40"></td>
+              <td>14</td>
+              <td>CAPITAO37CAVERNA</td>
+              <td><input type="text" placeholder="Técnico" value="Thiago" disabled></td>
+              <td class="pontos">0</td>
+              <td><input type="number" class="serie-a1" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b1" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial1" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c1" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana1" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a2" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b2" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial2" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c2" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana2" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a3" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b3" value="" min="0" disabled></td>
+              <td><input type="number" class="mundial3" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c3" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana3" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa3" value="0" min="0" disabled></td>
+            </tr>
+            <td>15</td>
+              <td><img src="img/times/time1.png" width="40"></td>
+              <td>15</td>
+              <td>Thunderbolts</td>
+              <td><input type="text" placeholder="Técnico" value="Joao Marcos" disabled></td>
+              <td class="pontos">0</td>
+              <td><input type="number" class="serie-a1" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b1" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial1" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c1" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana1" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a2" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b2" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial2" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c2" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana2" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a3" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b3" value="" min="0" disabled></td>
+              <td><input type="number" class="mundial3" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c3" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana3" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa3" value="0" min="0" disabled></td>
+            </tr>
+            <td>16</td>
+              <td><img src="img/times/time1.png" width="40"></td>
+              <td>16</td>
+              <td>CRUZEIROMG2</td>
+              <td><input type="text" placeholder="Técnico" value="Marcos Paulo" disabled></td>
+              <td class="pontos">0</td>
+              <td><input type="number" class="serie-a1" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b1" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial1" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c1" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana1" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a2" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b2" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial2" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c2" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana2" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a3" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b3" value="" min="0" disabled></td>
+              <td><input type="number" class="mundial3" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c3" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana3" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa3" value="0" min="0" disabled></td>
+            </tr>
+            <td>17</td>
+              <td><img src="img/times/time1.png" width="40"></td>
+              <td>17</td>
+              <td>Corinthians PB99</td>
+              <td><input type="text" placeholder="Técnico" value="" disabled></td>
+              <td class="pontos">0</td>
+              <td><input type="number" class="serie-a1" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b1" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial1" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c1" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana1" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a2" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b2" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial2" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c2" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana2" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a3" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b3" value="" min="0" disabled></td>
+              <td><input type="number" class="mundial3" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c3" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana3" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa3" value="0" min="0" disabled></td>
+            </tr>
+            <td>18</td>
+              <td><img src="img/times/time1.png" width="40"></td>
+              <td>18</td>
+              <td>Botafogo SAFF</td>
+              <td><input type="text" placeholder="Técnico" value="Lucao" disabled></td>
+              <td class="pontos">0</td>
+              <td><input type="number" class="serie-a1" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b1" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial1" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c1" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana1" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa1" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a2" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b2" value="0" min="0" disabled></td>
+              <td><input type="number" class="mundial2" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c2" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana2" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa2" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-a3" value="0" min="0" disabled></td>
+              <td><input type="number" class="libertadores3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-b3" value="" min="0" disabled></td>
+              <td><input type="number" class="mundial3" value="0" min="0" disabled></td>
+              <td><input type="number" class="copa-brasil3" value="0" min="0" disabled></td>
+              <td><input type="number" class="serie-c3" value="0" min="0" disabled></td>
+              <td><input type="number" class="sul-americana3" value="0" min="0" disabled></td>
+              <td><input type="number" class="recopa3" value="0" min="0" disabled></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    function calcularPontos() {
+      const tbody = document.querySelector("#tabela-campeonato tbody");
+      const linhas = Array.from(tbody.querySelectorAll("tr"));
+
+      linhas.forEach((linha) => {
+        const getVal = (cls) => parseInt(linha.querySelector(`.${cls}`).value) || 0;
+
+        const pontos =
+          (getVal("serie-a1") * 30) +
+          (getVal("libertadores1") * 30) +
+          (getVal("serie-b1") * 15) +
+          (getVal("mundial1") * 32) +
+          (getVal("copa-brasil1") * 20) +
+          (getVal("serie-c1") * 10) +
+          (getVal("sul-americana1") * 15) +
+          (getVal("recopa1") * 10) +
+          (getVal("serie-a2") * 15) +
+          (getVal("libertadores2") * 15) +
+          (getVal("serie-b2") * 7.5) +
+          (getVal("mundial2") * 16) +
+          (getVal("copa-brasil2") * 10) +
+          (getVal("serie-c2") * 5) +
+          (getVal("sul-americana2") * 7.5) +
+          (getVal("recopa2") * 5);
+          (getVal("serie-a3") * 30/3) +
+          (getVal("libertadores3") * 30/3) +
+          (getVal("serie-b3") * 15/3) +
+          (getVal("mundial3") * 32/3) +
+          (getVal("copa-brasil3") * 20/3) +
+          (getVal("serie-c3") * 10/3) +
+          (getVal("sul-americana3") * 15/3) +
+          (getVal("recopa3") * 10/3)
+
+        linha.querySelector(".pontos").innerText = pontos;
+        linha.dataset.pontos = pontos;
+      });
+
+      // Ordena pela pontuação (maior primeiro)
+      linhas.sort((a, b) => parseFloat(b.dataset.pontos) - parseFloat(a.dataset.pontos));
+
+      linhas.forEach((linha, index) => {
+        linha.children[0].innerText = index + 1; // #
+        linha.children[2].innerText = index + 1; // posição
+        tbody.appendChild(linha);
+      });
+    }
+
+    // Atualiza ao digitar
+    document.addEventListener("input", function (e) {
+      if (e.target.closest("tr")) calcularPontos();
+    });
+
+    calcularPontos(); // Inicial
+  </script>
+
+</body>
+</html>
