@@ -4,41 +4,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Campeonatos</title>
+  <title>Links</title>
   <link rel="stylesheet" href="css\styles.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
-</head>
-<style>
-  .times {
-    margin-top: 50px;
-    /* Espaço entre o header e a seção de times */
-    display: flex;
-    justify-content: center;
-    /* Centralizar na horizontal */
-    align-items: center;
-    /* Centralizar na vertical */
-    flex-direction: column;
-    /* Colocar os elementos em coluna */
-  }
+  <style>
+    .times {
+      margin-top: 50px;
+      /* Espaço entre o header e a seção de times */
+      display: flex;
+      justify-content: center;
+      /* Centralizar na horizontal */
+      align-items: center;
+      /* Centralizar na vertical */
+      flex-direction: column;
+      /* Colocar os elementos em coluna */
+    }
 
-  .time {
-    font-size: 24px;
-    /* Tamanho da fonte aumentado */
-    font-weight: bold;
-    /* Negrito */
-    margin-bottom: 10px;
-    /* Espaço entre os nomes dos times */
-  }
-</style>
+    .time {
+      font-size: 24px;
+      /* Tamanho da fonte aumentado */
+      font-weight: bold;
+      /* Negrito */
+      margin-bottom: 10px;
+      /* Espaço entre os nomes dos times */
+    }
+  </style>
 </head>
 
 <body>
   <header>
     <div class="logo">
       <img src="img\logo.png" alt="Craques FC">
-      <h1>Craques CFC</h1>
+      <h1>Craques FC</h1>
     </div>
     <nav class="navbar navbar-expand-md navbar-light bg-light">
       <a class="navbar-brand" href="#">Cartola</a>
@@ -60,11 +59,12 @@
           <li class="nav-item">
             <a class="nav-link" href="saibamais.html">Saiba Mais</a>
           </li>
+
           <li class="nav-item">
             <a class="nav-link" href="links.html">Links</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link" href="rank.html">Rank</a>
+          </li>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://chat.whatsapp.com/I3FEuJd0T7r40zF8rxGVku">Whatsapp Grupo</a>
@@ -75,12 +75,16 @@
   </header>
 
 
+    <!-- Adicione mais seções para outros times conforme necessário -->
+  </main>
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <footer>
-    <p>&copy; 2024 Craques FC</p>
+    <p>&copy; 2025 Craques CFC</p>
     <a href="https://www.instagram.com/craques2015fc"><i class="bi bi-instagram"></i> Instagram</a>
   </footer>
+</body>
 
 </html>
